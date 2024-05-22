@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="figma_yellow">#FAC416</color>
+    <color name="figma_black">#191607</color>
+    <color name="figma_blue">#3FB1F8</color>
+
+    <color name="textColor">#8D540D</color>
+</resources>

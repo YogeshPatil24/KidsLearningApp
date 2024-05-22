@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activities.MainActivity">
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/my_nav_host_fragment"
+            android:name="androidx.navigation.fragment.NavHostFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:defaultNavHost="true"
+            app:navGraph="@navigation/app_navigation" />
+
+        <!--<androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="10dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout style="@style/linearlayouytheme">
+
+                    <Button
+                        android:id="@+id/buttonA"
+                        style="@style/ButtonTheme"
+                        android:text="A" />
+
+                    <Button
+                        android:id="@+id/buttonB"
+                        style="@style/ButtonTheme"
+                        android:text="B" />
+
+                    <Button
+                        android:id="@+id/buttonC"
+                        style="@style/ButtonTheme"
+                        android:text="C" />
+
+                    <Button
+                        android:id="@+id/buttonD"
+                        style="@style/ButtonTheme"
+                        android:text="D" />
+
+                </LinearLayout>
+
+                <LinearLayout style="@style/linearlayouytheme">
+
+                    <Button
+                        android:id="@+id/buttonE"
+                        style="@style/ButtonTheme"
+                        android:text="E" />
+
+                    <Button
+                        android:id="@+id/buttonF"
+                        style="@style/ButtonTheme"
+                        android:text="F" />
+
+                    <Button
+                        android:id="@+id/buttonG"
+                        style="@style/ButtonTheme"
+                        android:text="G" />
+
+                    <Button
+                        android:id="@+id/buttonH"
+                        style="@style/ButtonTheme"
+                        android:text="H" />
+
+                </LinearLayout>
+
+                <LinearLayout style="@style/linearlayouytheme">
+
+                    <Button
+                        android:id="@+id/buttonI"
+                        style="@style/ButtonTheme"
+                        android:text="I" />
+
+                    <Button
+                        android:id="@+id/buttonJ"
+                        style="@style/ButtonTheme"
+                        android:text="J" />
+
+                    <Button
+                        android:id="@+id/buttonK"
+                        style="@style/ButtonTheme"
+                        android:text="K" />
+
+                    <Button
+                        android:id="@+id/buttonL"
+                        style="@style/ButtonTheme"
+                        android:text="L" />
+
+                </LinearLayout>
+
+                <LinearLayout style="@style/linearlayouytheme">
+
+                    <Button
+                        android:id="@+id/buttonM"
+                        style="@style/ButtonTheme"
+                        android:text="M" />
+
+                    <Button
+                        android:id="@+id/buttonN"
+                        style="@style/ButtonTheme"
+                        android:text="N" />
+
+                    <Button
+                        android:id="@+id/buttonO"
+                        style="@style/ButtonTheme"
+                        android:text="O" />
+
+                    <Button
+                        android:id="@+id/buttonP"
+                        style="@style/ButtonTheme"
+                        android:text="P" />
+
+                </LinearLayout>
+
+                <LinearLayout style="@style/linearlayouytheme">
+
+                    <Button
+                        android:id="@+id/buttonQ"
+                        style="@style/ButtonTheme"
+                        android:text="Q" />
+
+                    <Button
+                        android:id="@+id/buttonR"
+                        style="@style/ButtonTheme"
+                        android:text="R" />
+
+                    <Button
+                        android:id="@+id/buttonS"
+                        style="@style/ButtonTheme"
+                        android:text="S" />
+
+                    <Button
+                        android:id="@+id/buttonT"
+                        style="@style/ButtonTheme"
+                        android:text="T" />
+
+                </LinearLayout>
+
+                <LinearLayout style="@style/linearlayouytheme">
+
+                    <Button
+                        android:id="@+id/buttonU"
+                        style="@style/ButtonTheme"
+                        android:text="U" />
+
+                    <Button
+                        android:id="@+id/buttonV"
+                        style="@style/ButtonTheme"
+                        android:text="V" />
+
+                    <Button
+                        android:id="@+id/buttonW"
+                        style="@style/ButtonTheme"
+                        android:text="W" />
+
+                    <Button
+                        android:id="@+id/buttonX"
+                        style="@style/ButtonTheme"
+                        android:text="X" />
+
+                </LinearLayout>
+
+                <LinearLayout style="@style/linearlayouytheme">
+
+                    <Button
+                        android:id="@+id/buttonY"
+                        style="@style/ButtonTheme"
+                        android:text="Y" />
+
+                    <Button
+                        android:id="@+id/buttonZ"
+                        style="@style/ButtonTheme"
+                        android:text="Z" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>-->
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

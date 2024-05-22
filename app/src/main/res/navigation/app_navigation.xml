@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_navigation"
+    app:startDestination="@id/splasFragment">
+
+    <fragment
+        android:id="@+id/splasFragment"
+        android:name="com.mvvmmovies.kidslearningabcd.fragments.SplasFragment"
+        android:label="SplasFragment">
+        <action
+            android:id="@+id/action_splasFragment_to_introFragment"
+            app:destination="@id/introFragment"
+            app:popUpTo="@id/splasFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.mvvmmovies.kidslearningabcd.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_alphabetsFragment"
+            app:destination="@id/alphabetsFragment"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/slide_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/introFragment"
+        android:name="com.mvvmmovies.kidslearningabcd.fragments.IntroFragment"
+        android:label="IntroFragment"
+        app:popUpTo="@id/splasFragment"
+        app:popUpToInclusive="true">
+        <action
+            android:id="@+id/action_introFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/slide_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/alphabetsFragment"
+        android:name="com.mvvmmovies.kidslearningabcd.fragments.AlphabetsFragment"
+        android:label="AlphabetsFragment">
+        <action
+            android:id="@+id/action_alphabetsFragment_to_alphabetsDetailsFragment"
+            app:destination="@id/alphabetsDetailsFragment"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/slide_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/alphabetsDetailsFragment"
+        android:name="com.mvvmmovies.kidslearningabcd.fragments.AlphabetsDetailsFragment"
+        android:label="AlphabetsDetailsFragment" />
+</navigation>
